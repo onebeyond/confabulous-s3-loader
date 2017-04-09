@@ -5,8 +5,6 @@ var s3 = new AWS.S3({signatureVersion: 'v4'})
 var async = require('async')
 var duration = require('parse-duration')
 var merge = require('lodash.merge')
-var pick = require('lodash.pick')
-var find = require('lodash.find')
 var contains = require('lodash.contains')
 var format = require('util').format
 

@@ -1,6 +1,5 @@
 var assert = require('chai').assert
 var s3Loader = require('..')
-var express = require('express')
 var EventEmitter = require('events').EventEmitter
 
 describe('s3Loader', function() {
