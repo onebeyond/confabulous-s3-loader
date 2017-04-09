@@ -1,0 +1,49 @@
+{
+  "name": "confabulous-s3-loader",
+  "version": "0.0.1",
+  "description": "A confabulous s3 loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "prepush": "npm run lint && npm test",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "Confabulous",
+    "S3",
+    "Loader",
+    "Config"
+  ],
+  "author": "GuideSmiths Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.3.0",
+    "aws-sdk": "^2.40.0",
+    "debug": "^2.6.3",
+    "lodash.contains": "^2.4.3",
+    "lodash.find": "^4.6.0",
+    "lodash.merge": "^4.6.0",
+    "lodash.pick": "^4.4.0",
+    "parse-duration": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-imperative": "^1.0.0",
+    "eslint-plugin-imperative": "^1.0.0",
+    "express": "^4.15.2",
+    "husky": "^0.13.3",
+    "mocha": "^3.2.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guidesmiths/confabulous-s3-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guidesmiths/confabulous-s3-loader/issues"
+  },
+  "homepage": "https://github.com/guidesmiths/confabulous-s3-loader#readme"
+}
