@@ -9,7 +9,7 @@ const s3Loader = require('confabulous-s3-loader')
 const processors = confabulous.processors
 
 new Confabulous()
-    .add((config) => http({ bucket: config.bucket, key: config.key, mandatory: false, watch: { interval: '5m' } }))
+    .add((config) => s3Loader({ bucket: config.bucket, key: config.key, mandatory: false, watch: { interval: '5m' } }))
     .on('loaded', (config) => console.log('Loaded', JSON.stringify(config, null, 2)))
     .on('reloaded', (config) => console.log('Reloaded', JSON.stringify(config, null, 2)))
     .on('error', (err) => console.error('Error', err))
