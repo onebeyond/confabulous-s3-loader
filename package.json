@@ -6,7 +6,9 @@
   "scripts": {
     "test": "mocha",
     "prepush": "npm run lint && npm test",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "Confabulous",
@@ -22,7 +24,8 @@
     "debug": "^2.6.3",
     "lodash.contains": "^2.4.3",
     "lodash.merge": "^4.6.0",
-    "parse-duration": "^0.1.1"
+    "parse-duration": "^0.1.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -42,5 +45,6 @@
   "bugs": {
     "url": "https://github.com/guidesmiths/confabulous-s3-loader/issues"
   },
-  "homepage": "https://github.com/guidesmiths/confabulous-s3-loader#readme"
+  "homepage": "https://github.com/guidesmiths/confabulous-s3-loader#readme",
+  "snyk": true
 }
