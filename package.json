@@ -17,7 +17,7 @@
   "author": "GuideSmiths Ltd",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.3.0",
+    "async": "^3.2.2",
     "aws-sdk": "^2.40.0",
     "debug": "^2.6.3",
     "lodash.contains": "^2.4.3",
