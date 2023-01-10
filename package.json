@@ -19,7 +19,7 @@
   "dependencies": {
     "async": "^2.3.0",
     "aws-sdk": "^2.40.0",
-    "debug": "^2.6.3",
+    "debug": "^3.1.0",
     "lodash.contains": "^2.4.3",
     "lodash.merge": "^4.6.0",
     "parse-duration": "^0.1.1"
