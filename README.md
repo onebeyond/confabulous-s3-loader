@@ -1,3 +1,7 @@
+# ⚠️ This repository is not longer maintained ⚠️
+
+This project is not longer maintained and has been archived. More details in [One Beyond Governance Tiers](https://onebeyond-maintainers.netlify.app/governance/tiers)
+
 # Confabulous S3 Loader
 Confabulous-S3-Loader is an S3 Loader for [Confabulous](https://github.com/guidesmiths/confabulous) - a hierarchical, asynchronous config loader and post processor.
 
